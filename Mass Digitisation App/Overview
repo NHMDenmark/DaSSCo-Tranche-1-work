@@ -1,1 +1,6 @@
+The Mass Digitisation App was developed by DaSSCo to capture broad information (e.g., on front of folders or drawers) that is associated with multiple specimens.
+This information is often taxonomy and broad geographic region. However, it may also include other details such as storage location of type status (where all type specimens are stored together).
+Information is entered into the app at the same stage (or near enough) to an image of the specimen label (+/- an image of the specimen as well). 
+The information from the mass digitisation app is imported into Specify and can be linked via the storage with the images. 
 
+The Mass Digitisation App Github board is here: https://github.com/orgs/NHMDenmark/projects/35/views/1

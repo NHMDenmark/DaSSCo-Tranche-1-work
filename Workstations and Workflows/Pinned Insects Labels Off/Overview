@@ -1,1 +1,6 @@
+This workstation and workflow was developed to simultaneously image labels and pinned insect specimens when the labels are taken off of the pins (and placed on a tray with the specimen for imaging)
+Broad information is captured using the Mass Digitizer app at the same time, so that the images and a specimen recrod can be associated in Specify.
+This workstation and workflow was developed for use by NHMD and NHMA (with slight differences between them).
 
+The associated Gitub board for development of the workstation and workflow:https://github.com/orgs/NHMDenmark/projects/9
+The Github board for development of the Mass Digitizer app: https://github.com/orgs/NHMDenmark/projects/35

@@ -5,3 +5,5 @@ Access to digital assets will mostly be via Specify and pushed to a data portal 
 To support the digitisation effort, project metadata captured during the digitisation process and selected data harvested from Specify needs to be captured in a registry to monitor progress, do quality assurance checks, and mediate access. Data should be able to flow both ways between the registry and Specify. This registry should capture the relations between the digital assets and metadata and must allow for queries in to this data structure. During the life cycle of digital assets, each asset will undergo a series of transformations (essentially an Extract, Transform, Load (ETL) process) which may lead to new metadata and new digital assets (e.g. a processed image may be created from an original raw image). The registry must support this ETL process workflow.
 
 DaSSCo engaged an external consultancy to work with them to complete this work. The work was divided into multiple phases.
+
+The Github project board is here: https://github.com/orgs/NHMDenmark/projects/32

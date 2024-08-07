@@ -1,1 +1,35 @@
+The transcription platform is a stand-alone app that will have groups of specimens (projects/missions/expeditions) to be transcribed by users/volunteers using an internet browser. 
+
+These specimens should have: 
+1- identifier (something that allows you to identify the specimen univocally, such as a GUID, or a concatenation of Database ID+CollectionObjectID
+2- at least one image (URL to an accessible image of the specimen)
+For now the creation of projects/missions/expeditions will be made via a form, where an administrator can upload a csv or json file containin this basic information. Later on, automatic ways of getting information about specimens via SPECIFY API can be implemented, depending on the desired pipeline for this.
+Administrators will also have the possibility to create the fields that should be filled in by the users, let's say Verbatim date, Verbatim locality, etc.
+As soon as the data starts to be filled in and validated, it can be obtained incrementally by a URL request of the kind /validated/validationID, which will produce a json with the list of validated data starting with validationID value, example:
+[
+   {
+      "id":200309,
+      "value":"1973\/06\/10",
+      "position":1,
+      "specimen_id":106342,
+      "field_id":10,
+      "user_id":"system",
+      "status":1,
+      "created_at":"2024-01-23 00:16:39",
+      "updated_at":"2024-01-23 00:16:39"
+   },
+   {
+      "id":200310,
+      "value":"1958\/04\/21",
+      "position":1,
+      "specimen_id":106368,
+      "field_id":10,
+      "user_id":"system",
+      "status":1,
+      "created_at":"2024-01-23 00:16:59",
+      "updated_at":"2024-01-23 00:16:59"
+   }
+]
+
+That's where the other stage of the process starts, which is using the validated data to populate fields in Specify installations through API. This should be programmed to insert data based on a fields mapping
 
